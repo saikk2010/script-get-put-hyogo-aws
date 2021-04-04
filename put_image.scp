@@ -1,0 +1,53 @@
+option batch on 
+option confirm off
+open  ftp://ftp-user:ftp-user@52.69.140.64
+mkdir /prog/rri_run_Riv_hyogo/4s_1_shinonsen/image/2021/04/04
+synchronize remote -filemask=" * > 1H " C:\prog\rri_run_Riv_hyogo\4s_1_shinonsen\image\2021\04\04\ /prog/rri_run_Riv_hyogo/4s_1_shinonsen/image/2021/04/04/
+put C:\prog\rri_run_Riv_hyogo\4s_1_shinonsen\image\datatime.txt /prog/rri_run_Riv_hyogo/4s_1_shinonsen/image/datatime.txt
+put C:\prog\rri_run_Riv_hyogo\4s_1_shinonsen\image\datatimeY.txt /prog/rri_run_Riv_hyogo/4s_1_shinonsen/image/datatimeY.txt
+get /data/datetime/jmbsc/DateJmaY.txt C:\\data\\datetime\\jmbsc\\DateJmaY.txt
+synchronize local -filemask=" * > 1H " C:\\prog\\rri_run_Riv_hyogo\\Rain\\2021\04\\04\\ /prog/rri_run_Riv_hyogo/Rain/2021/04/04/
+mkdir /prog/rri_run_Riv_hyogo/4s_2_toyooka-yabu/image/2021/04/04
+synchronize remote -filemask=" * > 1H " C:\prog\rri_run_Riv_hyogo\4s_2_toyooka-yabu\image\2021\04\04\ /prog/rri_run_Riv_hyogo/4s_2_toyooka-yabu/image/2021/04/04/
+put C:\prog\rri_run_Riv_hyogo\4s_2_toyooka-yabu\image\datatime.txt /prog/rri_run_Riv_hyogo/4s_2_toyooka-yabu/image/datatime.txt
+put C:\prog\rri_run_Riv_hyogo\4s_2_toyooka-yabu\image\datatimeY.txt /prog/rri_run_Riv_hyogo/4s_2_toyooka-yabu/image/datatimeY.txt
+get /data/datetime/jmbsc/DateJmaY.txt C:\\data\\datetime\\jmbsc\\DateJmaY.txt
+synchronize local -filemask=" * > 1H " C:\\prog\\rri_run_Riv_hyogo\\Rain\\2021\04\\04\\ /prog/rri_run_Riv_hyogo/Rain/2021/04/04/
+mkdir /prog/rri_run_Riv_hyogo/4s_3_koto/image/2021/04/04
+synchronize remote -filemask=" * > 1H " C:\prog\rri_run_Riv_hyogo\4s_3_koto\image\2021\04\04\ /prog/rri_run_Riv_hyogo/4s_3_koto/image/2021/04/04/
+put C:\prog\rri_run_Riv_hyogo\4s_3_koto\image\datatime.txt /prog/rri_run_Riv_hyogo/4s_3_koto/image/datatime.txt
+put C:\prog\rri_run_Riv_hyogo\4s_3_koto\image\datatimeY.txt /prog/rri_run_Riv_hyogo/4s_3_koto/image/datatimeY.txt
+get /data/datetime/jmbsc/DateJmaY.txt C:\\data\\datetime\\jmbsc\\DateJmaY.txt
+synchronize local -filemask=" * > 1H " C:\\prog\\rri_run_Riv_hyogo\\Rain\\2021\04\\04\\ /prog/rri_run_Riv_hyogo/Rain/2021/04/04/
+mkdir /prog/rri_run_Riv_hyogo/4s_4_himeji/image/2021/04/04
+synchronize remote -filemask=" * > 1H " C:\prog\rri_run_Riv_hyogo\4s_4_himeji\image\2021\04\04\ /prog/rri_run_Riv_hyogo/4s_4_himeji/image/2021/04/04/
+put C:\prog\rri_run_Riv_hyogo\4s_4_himeji\image\datatime.txt /prog/rri_run_Riv_hyogo/4s_4_himeji/image/datatime.txt
+put C:\prog\rri_run_Riv_hyogo\4s_4_himeji\image\datatimeY.txt /prog/rri_run_Riv_hyogo/4s_4_himeji/image/datatimeY.txt
+get /data/datetime/jmbsc/DateJmaY.txt C:\\data\\datetime\\jmbsc\\DateJmaY.txt
+synchronize local -filemask=" * > 1H " C:\\prog\\rri_run_Riv_hyogo\\Rain\\2021\04\\04\\ /prog/rri_run_Riv_hyogo/Rain/2021/04/04/
+mkdir /prog/rri_run_Riv_hyogo/4s_5_kakogawa/image/2021/04/04
+synchronize remote -filemask=" * > 1H " C:\prog\rri_run_Riv_hyogo\4s_5_kakogawa\image\2021\04\04\ /prog/rri_run_Riv_hyogo/4s_5_kakogawa/image/2021/04/04/
+put C:\prog\rri_run_Riv_hyogo\4s_5_kakogawa\image\datatime.txt /prog/rri_run_Riv_hyogo/4s_5_kakogawa/image/datatime.txt
+put C:\prog\rri_run_Riv_hyogo\4s_5_kakogawa\image\datatimeY.txt /prog/rri_run_Riv_hyogo/4s_5_kakogawa/image/datatimeY.txt
+get /data/datetime/jmbsc/DateJmaY.txt C:\\data\\datetime\\jmbsc\\DateJmaY.txt
+synchronize local -filemask=" * > 1H " C:\\prog\\rri_run_Riv_hyogo\\Rain\\2021\04\\04\\ /prog/rri_run_Riv_hyogo/Rain/2021/04/04/
+mkdir /prog/rri_run_Riv_hyogo/4s_6_kobe-hanshin/image/2021/04/04
+synchronize remote -filemask=" * > 1H " C:\prog\rri_run_Riv_hyogo\4s_6_kobe-hanshin\image\2021\04\04\ /prog/rri_run_Riv_hyogo/4s_6_kobe-hanshin/image/2021/04/04/
+put C:\prog\rri_run_Riv_hyogo\4s_6_kobe-hanshin\image\datatime.txt /prog/rri_run_Riv_hyogo/4s_6_kobe-hanshin/image/datatime.txt
+put C:\prog\rri_run_Riv_hyogo\4s_6_kobe-hanshin\image\datatimeY.txt /prog/rri_run_Riv_hyogo/4s_6_kobe-hanshin/image/datatimeY.txt
+get /data/datetime/jmbsc/DateJmaY.txt C:\\data\\datetime\\jmbsc\\DateJmaY.txt
+synchronize local -filemask=" * > 1H " C:\\prog\\rri_run_Riv_hyogo\\Rain\\2021\04\\04\\ /prog/rri_run_Riv_hyogo/Rain/2021/04/04/
+mkdir /prog/rri_run_Riv_hyogo/4s_7_takedagawa/image/2021/04/04
+synchronize remote -filemask=" * > 1H " C:\prog\rri_run_Riv_hyogo\4s_7_takedagawa\image\2021\04\04\ /prog/rri_run_Riv_hyogo/4s_7_takedagawa/image/2021/04/04/
+put C:\prog\rri_run_Riv_hyogo\4s_7_takedagawa\image\datatime.txt /prog/rri_run_Riv_hyogo/4s_7_takedagawa/image/datatime.txt
+put C:\prog\rri_run_Riv_hyogo\4s_7_takedagawa\image\datatimeY.txt /prog/rri_run_Riv_hyogo/4s_7_takedagawa/image/datatimeY.txt
+get /data/datetime/jmbsc/DateJmaY.txt C:\\data\\datetime\\jmbsc\\DateJmaY.txt
+synchronize local -filemask=" * > 1H " C:\\prog\\rri_run_Riv_hyogo\\Rain\\2021\04\\04\\ /prog/rri_run_Riv_hyogo/Rain/2021/04/04/
+mkdir /prog/rri_run_Riv_hyogo/4s_8_awaji/image/2021/04/04
+synchronize remote -filemask=" * > 1H " C:\prog\rri_run_Riv_hyogo\4s_8_awaji\image\2021\04\04\ /prog/rri_run_Riv_hyogo/4s_8_awaji/image/2021/04/04/
+put C:\prog\rri_run_Riv_hyogo\4s_8_awaji\image\datatime.txt /prog/rri_run_Riv_hyogo/4s_8_awaji/image/datatime.txt
+put C:\prog\rri_run_Riv_hyogo\4s_8_awaji\image\datatimeY.txt /prog/rri_run_Riv_hyogo/4s_8_awaji/image/datatimeY.txt
+get /data/datetime/jmbsc/DateJmaY.txt C:\\data\\datetime\\jmbsc\\DateJmaY.txt
+synchronize local -filemask=" * > 1H " C:\\prog\\rri_run_Riv_hyogo\\Rain\\2021\04\\04\\ /prog/rri_run_Riv_hyogo/Rain/2021/04/04/
+close 
+exit 
