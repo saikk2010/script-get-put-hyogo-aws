@@ -29,7 +29,9 @@ rain_put_path= r"/home/hyogo_rri_data/hyogo_rri_user04/rri/rain/"
 image_get_path= r"/home/hyogo_rri_data/hyogo_rri_user04/rri/image/"
 image_put_path= r"C:/prog/rri_run_Riv_hyogo/"
 
-Area = ["4s_1_shinonsen","4s_2_toyooka-yabu","4s_3_koto","4s_4_himeji","4s_5_kakogawa","4s_6_kobe-hanshin","4s_7_takedagawa","4s_8_awaji"]
+#Area = ["4s_5_kakogawa","4s_6_kobe-hanshin","4s_7_takedagawa","4s_8_awaji"]
+Area = ["4s_5_kakogawa","4s_6_kobe-hanshin"]
+
 
 #実況雨量の更新時刻
 # JIKYO_TIME='DateJmaJ.txt'
@@ -79,7 +81,7 @@ while(True):
     #設定期間の雨量データを転送する
 
     print(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),"Next time:", (dt_time_y+interval_minu).strftime('%Y-%m-%d %H:%M:%S'))
-    with open("get_image.scp",'w+') as f:
+    with open("get_image5-6.scp",'w+') as f:
         f.write("option batch on \n")
         f.write("option confirm off\n")
         f.write("open hyogo_rri_user04@202.247.60.211:60151\n")
@@ -100,7 +102,7 @@ while(True):
         f.write("close \n")
         f.write("exit \n")
 
-    str_scp='winscp -script=get_image.scp /privatekey=hyogo_ssh.ppk'
+    str_scp='winscp -script=get_image5-6.scp /privatekey=hyogo_ssh.ppk'
     os.system(str_scp)
     dt_time_y=dt_time_y+interval_minu
 

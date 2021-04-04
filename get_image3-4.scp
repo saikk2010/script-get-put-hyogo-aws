@@ -1,0 +1,14 @@
+option batch on 
+option confirm off
+open hyogo_rri_user04@202.247.60.211:60151
+cd /home/hyogo_rri_data/hyogo_rri_user04/rri/image/
+synchronize local -filemask=" * > 1H " C:/prog/rri_run_Riv_hyogo/4s_3_koto/image/2021/04/04/ /home/hyogo_rri_data/hyogo_rri_user04/rri/image/4s_3_koto/2021/04/04/
+get /home/hyogo_rri_data/hyogo_rri_user04/rri/image/4s_3_koto/datatime.txt C:/prog/rri_run_Riv_hyogo/4s_3_koto\image\datatime.txt
+get /home/hyogo_rri_data/hyogo_rri_user04/rri/image/4s_3_koto/datatimeY.txt C:/prog/rri_run_Riv_hyogo/4s_3_koto\image\datatimeY.txt
+get /home/hyogo_rri_data/hyogo_rri_user04/rri/disk_info.log disk_info.log
+synchronize local -filemask=" * > 1H " C:/prog/rri_run_Riv_hyogo/4s_4_himeji/image/2021/04/04/ /home/hyogo_rri_data/hyogo_rri_user04/rri/image/4s_4_himeji/2021/04/04/
+get /home/hyogo_rri_data/hyogo_rri_user04/rri/image/4s_4_himeji/datatime.txt C:/prog/rri_run_Riv_hyogo/4s_4_himeji\image\datatime.txt
+get /home/hyogo_rri_data/hyogo_rri_user04/rri/image/4s_4_himeji/datatimeY.txt C:/prog/rri_run_Riv_hyogo/4s_4_himeji\image\datatimeY.txt
+get /home/hyogo_rri_data/hyogo_rri_user04/rri/disk_info.log disk_info.log
+close 
+exit 
